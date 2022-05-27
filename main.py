@@ -7,6 +7,7 @@ def home():
     return {"Welcome": "Architecture for Voice Recognition in Family Members"}
 
 
+
 @app.get("/get_result", tags=["audio"])
 async def get_audio():
     """Retorna resultados del audio introducido
